@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Police Apps</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Police Apps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>it-it</language>
+    <lastBuildDate>Wed, 04 May 2022 09:49:27 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ADR</title>
+      <link>/posts/adr/</link>
+      <pubDate>Wed, 04 May 2022 09:49:27 +0200</pubDate>
+      
+      <guid>/posts/adr/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;ciao.com&#34;&gt;Lista merci pericolose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;f sdf dsf sdgfd g gfd gf  fgd dfgs fg d gfd sd&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Giochi</title>
+      <link>/posts/giochi/</link>
+      <pubDate>Wed, 04 May 2022 09:49:17 +0200</pubDate>
+      
+      <guid>/posts/giochi/</guid>
+      <description>Giochi</description>
+    </item>
+    
+  </channel>
+</rss>
