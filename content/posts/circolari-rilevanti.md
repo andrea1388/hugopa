@@ -1,6 +1,5 @@
 +++
-date = ""
-draft = true
+date = 2022-05-04T22:00:00Z
 title = "Circolari rilevanti"
 
 +++
