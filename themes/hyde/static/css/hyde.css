@@ -79,8 +79,7 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-size: 3 rem;
 }
 
 /* Sidebar nav */
@@ -242,9 +241,13 @@ a.sidebar-nav-item:focus {
 
 /* Brown */
 .theme-base-0f .sidebar {
-  background-color: #8f5536;
+  background-color: #112250;
 }
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
+  color: #4765ba;
+}
+.theme-base-0f .sidebar img {
+  width: 30%;
+  display: unset;
 }
