@@ -10,6 +10,7 @@ fields:
   label: date
 pages:
 - content/posts/circolari-rilevanti.md
+- content/posts/leggi-polizia-locale-veneto.md
 - content/posts/norme-antinquinamento.md
 - content/posts/procedure.md
 - content/posts/prontuari.md
