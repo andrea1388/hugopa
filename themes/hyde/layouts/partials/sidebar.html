@@ -3,20 +3,23 @@
     <div class="sidebar-about">
       <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
       <img src="{{ .Site.BaseURL }}logopl.png">
-      <p class="lead">
+      <p>
       {{ with .Site.Params.description }} {{.}} {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
       </p>
     </div>
 
     <nav>
       <ul class="sidebar-nav">
-        <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+        <!-- <li><a href="{{ .Site.BaseURL }}">Home</a> </li> -->
         {{ range .Site.Menus.main -}}
           <li><a href="{{.URL}}"> {{ .Name }} </a></li>
         {{- end }}
       </ul>
     </nav>
-
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <div class="piccolo">Andrea Carrara
+      <a href="https://t.me/strider1388">Telegram: @strider1388</a><br>
+      Questo sito è realizzato con tecnologia <a href="https://ipfs.io">ipfs</a> (web3) ed è ospitato da <a href="https://fleek.io/">fleek</a>
+    </div>
+       
   </div>
 </aside>

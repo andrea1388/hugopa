@@ -21,7 +21,7 @@ min_version = 0.53
     homepage = "http://markdotto.com/"
     repo = "https://www.github.com/mdo/hyde"
 
-[Menus]
-  main = [
-      {Name = "Policeapps DB", URL = "https://policeapps.altervista.org/login.php"},
-  ]
+#[Menus]
+#  main = [
+#      {Name = "Policeapps DB", URL = "https://policeapps.altervista.org/login.php"},
+#  ]
