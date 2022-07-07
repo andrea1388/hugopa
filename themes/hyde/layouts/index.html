@@ -20,13 +20,10 @@
 {{- end }}
  -->
 
-{{ range sort .Site.RegularPages ".Title" "asc" -}}
-<h3 class="post-title">
-  <a href="{{ .Permalink }}">{{ .Title }}</a>
-</h3>
-
+  {{ range  (sort (where .Site.RegularPages "Section" "posts")) -}}
+  <h3 class="post-title">
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </h3>
   {{- end }}
-
-
 </div>
 {{- end }}
